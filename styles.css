@@ -30,6 +30,14 @@
     margin-bottom: 28px;
     border-radius: 8px;
 }
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-around;
+    padding: 0;
+    margin: 0;
+}
 .titulo {
     color: black;
     display: flex;
@@ -194,4 +202,88 @@
     margin: 10px 27px 10px 12px;
     max-height: 40px;
     max-width: 40px;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 0 0 30px;
+    margin-bottom: 0px;
+    margin: 0;
+    max-height: 608px;
+    max-width: 785px;
+}
+.running {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    border-radius: 8px;
+    background-color: white;
+
+}
+.textoRunning {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: right;
+    max-width: 360px;
+    max-height: 333px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+    font-size: 15px; /* Tamanho da fonte */
+    margin: 9px 16px 16px 18px;
+    border-radius: 8px;
+}
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 250;
+    border-radius: 8px;
+    padding: 10 0 0 0;
+    margin: 0 0 0 0;
+    max-height: 341px;
+    max-width: 360px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+    font-size: 64px; /* Tamanho da fonte */
+}
+.p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    padding: 0 0 0 0;
+    margin: 18px 0px 19px 24px;
+    max-height: 60px;
+    width: 306px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+}
+.p2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    padding: 0 0 0 0;
+    margin: 18px 0px 19px 24px;
+    max-height: 60px;
+    width: 306px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+}
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
 }
