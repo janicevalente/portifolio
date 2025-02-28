@@ -60,14 +60,44 @@
 .conteudo {
     display: flex;
     flex-direction: row;
-    justify-content: space-araound;
-    align-items: space-araound;
+    justify-content: space-between;
+    align-items: space-around;
+    max-width: 1342px;
     padding: 0;
     margin: 0;
 }
+.box2 {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    max-height: 608px;
+    max-width: 785px;
+ 
+   
+
+}
+
+.box1 {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    max-height: 608px;
+    max-width: 724px;
+ 
+   
+
+}
 
 .formacao {
-    display: flex;
+   display: flex;
     flex-direction: column;
     justify-items: center;
     justify-content: flex-start;
@@ -220,55 +250,73 @@
 
 }
 
-.box2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: white;
-    border-radius: 8px;
-    padding: 0 0 0 30px;
-    margin-bottom: 0px;
-    margin: 0;
-    max-height: 608px;
-    max-width: 785px;
-}
+
 .card1 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     margin-left: 28px;
     border-radius: 8px;
     background-color: white;
     max-height: 333px;
     max-width: 588px;
 }
-.box1Running {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    background-color: white;
-    border-radius: 8px;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    max-height: 341px;
-    max-width: 360px;
-}
+
 .textoRunning {
-    background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    text-align: right;
-    max-width: 360px;
+    justify-content: flex-end;
+    padding: 9px 16px 9px 18px;
     max-height: 333px;
-    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
-    font-size: 15px; /* Tamanho da fonte */
-    margin: 9px 16px 16px 18px;
-    border-radius: 8px;
+    max-width: 326px;
+ 
 }
+
+.hRun {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding: 0;
+    margin: 10px 0px 0 0;
+    height: 150px;
+    width: 326px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+    font-size: 55px; /* Tamanho da fonte */
+    font-weight: 300;
+    margin-bottom: 89px;
+}
+.p1Run {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    max-height: 86px;
+    max-width: 326px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+    font-size: 32px; /* Tamanho da fonte */
+    font-weight: 200;
+}
+.p2Run {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    max-height: 86px;
+    max-width: 326px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+    font-size: 32px; /* Tamanho da fonte */
+    font-weight: 300;
+}
+
 .imgRunning {
     display: flex;
     background-color: white;
@@ -306,24 +354,45 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
 }
-.descricao1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    font-weight: 250;
-    border-radius: 8px;
-    padding: 10 0 0 0;
-    margin: 0 0 0 0;
-    max-height: 341px;
-    max-width: 360px;
-    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
-    font-size: 64px; /* Tamanho da fonte */
-}
-.experiencia {
+.card2 {
+    background-color:#FFF1CA;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
+    justify-content: center;
+    align-items: start;
+    margin: 28px 0 0 21px;
+    padding: 27px 200px 24px 25px;
+    max-width: 785px;
+    max-height: 247px;  
+    border-radius: 8px;
+}
+.textoExperiencia {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-center;
+    align-items: Start;
+    width: 561px;
+    max-height: 126px; 
+
+}
+.imgTrofeu {
+    display: flex;
+    position: absolute;
+    border-radius: 8px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    max-height: 432px;
+    max-width: 309px;
+    top: 499px;
+    left: 1073px;
+}
+.pfblack {
+    color: black;
+    display: flex;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto, caso não tenha, vai para sans-serif */
+    font-size: 15px; /* Tamanho da fonte */
+    margin: 0 0 0 0;
+    font-weight: 400;
+    ;
 }
